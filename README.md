@@ -14,4 +14,6 @@ Sample React app with Parcel bundler with Enzyme for unit test
 
  `$npm run build`
 
- ### 
+ ###  Test 
+
+ `$ npm run test`
