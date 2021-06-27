@@ -1,0 +1,40 @@
+{
+  "name": "react-parcel-enzyme",
+  "version": "1.0.0",
+  "description": "Sample React app with parcel web bundler and enzyme as unit testing ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilmore690/react-parcel-enzyme.git"
+  },
+  "keywords": [
+    "react",
+    "enzyme",
+    "parcel"
+  ],
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^27.0.5",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5"
+  },
+  "author": "Sunil More",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilmore690/react-parcel-enzyme/issues"
+  },
+  "homepage": "https://github.com/sunilmore690/react-parcel-enzyme#readme"
+}
