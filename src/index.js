@@ -1,11 +1,11 @@
 import ReactDOM from 'react-dom'
 import React from 'react'
-import Counter from './Counter'
 import { StrictMode } from "react";
+import TripPlanner from './components/TripPlanner';
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-     <Counter/>
+     <TripPlanner/>
   </StrictMode>,
   rootElement
 );
